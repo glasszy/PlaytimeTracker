@@ -25,3 +25,21 @@ max-playtime: 120 # Maximum daily playtime in minutes
 reset-times:
   - "00:00"
   - "12:00" # Add as many reset times as you want
+
+```
+
+## Commands
+
+```yaml
+commands:
+  playtimecheck:
+    description: Check your current playtime
+  playtimelist:
+    description: View all online players' playtimes (OP only)
+  setplaytime:
+    description: Set a player's current playtime in minutes (OP only)
+  ignoreplaytime:
+    description: Toggle whether a player ignores the time limit (OP only)
+  ignoredplayers:
+    description: View list of players ignoring the playtime limit (OP only)
+```
