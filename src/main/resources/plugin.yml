@@ -1,0 +1,19 @@
+name: PlaytimeLimiter
+main: PlaytimeLimiter
+version: 1.2
+api-version: 1.16
+commands:
+  playtimecheck:
+    description: Check your current playtime
+  playtimelist:
+    description: View all online players' playtimes (OP only)
+  setplaytime:
+    description: Set a player's current playtime in minutes (OP only)
+  ignoreplaytime:
+    description: Toggle whether a player ignores the time limit (OP only)
+  ignoredplayers:
+    description: View list of players ignoring the playtime limit (OP only)
+permissions:
+  playtimelimit.bypass:
+    description: Allows bypassing playtime limits
+    default: op

@@ -1,0 +1,7 @@
+# Max playtime in minutes per day
+max-playtime: 120
+
+# Reset time in UTC, valid values: "00:00" or "12:00"
+reset-times:
+  - "00:00"
+  - "12:00"
