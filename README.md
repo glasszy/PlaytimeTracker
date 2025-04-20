@@ -13,7 +13,7 @@ A Minecraft Spigot plugin that limits each player's daily playtime. Once a playe
 
 ## Installation
 
-1. Download the latest `.jar` file and place it in your server's `plugins/` folder.
+1. Download the latest `.jar` file and place it in your server's `/plugins` folder.
 2. Restart or reload the server.
 3. Modify `config.yml` to your desired settings (see below).
 
